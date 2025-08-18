@@ -1,0 +1,43 @@
+{
+    "name": "@vanviolet/eslint9",
+    "version": "2.0.0",
+    "author": "vanviolet.js@gmail.com",
+    "license": "MIT",
+    "description": "Pack Konfigurasi ESLint untuk Eslint 9",
+    "keywords": [
+        "eslint",
+        "config",
+        "vanviolet",
+        "eslint-config"
+    ],
+    "type": "module",
+    "main": "eslint.config.js",
+    "bin": {
+        "vlint": "bin/vlint.js"
+    },
+    "files": [
+        "eslint.config.js",
+        "override.js",
+        "prettier.config.js",
+        "bin/vlint.js",
+        "plugins/eslint.js",
+        "plugins/global.js",
+        "plugins/ignore.recommended.js",
+        "plugins/prettier.js",
+        "plugins/typescript.js",
+        "plugins/unused-imports.js"
+    ],
+    "dependencies": {
+        "prompts": "^2.4.2",
+        "eslint": "^9.17.0",
+        "eslint-plugin-prettier": "^5.2.1",
+        "eslint-plugin-unused-imports": "^4.1.4",
+        "globals": "^15.14.0",
+        "prettier": "^3.4.2",
+        "@typescript-eslint/eslint-plugin": "^8.19.0",
+        "@typescript-eslint/parser": "^8.19.0"
+    },
+    "engines": {
+        "node": ">=18"
+    }
+}

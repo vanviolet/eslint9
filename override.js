@@ -1,0 +1,32 @@
+/** @type {import("eslint").Linter.Config} */
+export default [
+  {
+    rules: {
+      "no-useless-escape": 0,
+      "no-param-reassign": 0,
+      "no-console": 0,
+      "prefer-destructuring": 0,
+      "no-shadow": 0,
+      radix: 0,
+      "no-unused-vars": 0,
+      "object-shorthand": 1,
+      "prefer-template": 1,
+      "no-empty-function": 0,
+      "no-var": 0,
+      "no-prototype-builtins": 0,
+      "@typescript-eslint/no-explicit-any": 0,
+      "@typescript-eslint/no-empty-function": 0,
+      "@typescript-eslint/explicit-module-boundary-types": "off",
+      "@typescript-eslint/no-var-requires": 0,
+      "@typescript-eslint/no-namespace": "off",
+      "@typescript-eslint/no-unused-vars": "off",
+      "@typescript-eslint/ban-types": 0,
+      "@typescript-eslint/ban-ts-comment": 0,
+      "@typescript-eslint/no-duplicate-enum-values": 0,
+      "@typescript-eslint/no-unsafe-function-type": 0,
+      "@typescript-eslint/no-require-imports": 0,
+      "@typescript-eslint/no-empty-object-type": 0,
+      "@typescript-eslint/no-wrapper-object-types": 0,
+    },
+  },
+];
