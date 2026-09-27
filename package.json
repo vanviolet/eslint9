@@ -3,7 +3,7 @@
     "version": "2.0.0",
     "author": "vanviolet.js@gmail.com",
     "license": "MIT",
-    "description": "Pack Konfigurasi ESLint untuk Eslint 9",
+    "description": "Paket konfigurasi ESLint 10 untuk JavaScript dan TypeScript",
     "keywords": [
         "eslint",
         "config",
@@ -28,16 +28,16 @@
         "plugins/unused-imports.js"
     ],
     "dependencies": {
-        "prompts": "^2.4.2",
-        "eslint": "^9.17.0",
-        "eslint-plugin-prettier": "^5.2.1",
-        "eslint-plugin-unused-imports": "^4.1.4",
+        "@typescript-eslint/eslint-plugin": "^8.70.1",
+        "@typescript-eslint/parser": "^8.70.1",
+        "eslint": "^10.11.0",
+        "eslint-plugin-prettier": "^5.5.6",
+        "eslint-plugin-unused-imports": "^4.4.1",
         "globals": "^15.14.0",
         "prettier": "^3.4.2",
-        "@typescript-eslint/eslint-plugin": "^8.19.0",
-        "@typescript-eslint/parser": "^8.19.0"
+        "prompts": "^2.4.2"
     },
     "engines": {
-        "node": ">=18"
+        "node": "^20.19.0 || ^22.13.0 || >=24"
     }
 }

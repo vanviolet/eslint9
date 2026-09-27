@@ -19,7 +19,9 @@ atau jika menggunakan yarn:
 yarn add -D @vanviolet/eslint9
 ```
 
-## Penggunaan (Flat Config ESLint 9)
+Package ini menggunakan ESLint 10 dan memerlukan Node.js `20.19.0+`, `22.13.0+`, atau `24+`.
+
+## Penggunaan (Flat Config ESLint 10)
 
 Buat `eslint.config.mjs` dengan isi:
 
